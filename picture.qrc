@@ -1,0 +1,84 @@
+<RCC>
+    <qresource prefix="/door">
+        <file>door3.jpg</file>
+        <file>door4.jpg</file>
+        <file>door5.jpg</file>
+    </qresource>
+    <qresource prefix="/map">
+        <file>map.png</file>
+    </qresource>
+    <qresource prefix="/baijiang">
+        <file>baijiang.png</file>
+    </qresource>
+    <qresource prefix="/scenery">
+        <file>weiminghu1.png</file>
+        <file>xuejing1.png</file>
+        <file>qiudeba.jpg</file>
+        <file>weiminghu2.jpg</file>
+        <file>xiaoshiguan.jpg</file>
+        <file>iloveimg-resized (1)/xintaiyang.png</file>
+        <file>iloveimg-resized (1)/tushuguan.png</file>
+    </qresource>
+    <qresource prefix="/shitang">
+        <file>nongyuan.jpg</file>
+        <file>jiayuan.jpg</file>
+        <file>iloveimg-resized/xuewu.jpg</file>
+        <file>iloveimg-resized/yannan.jpg</file>
+        <file>iloveimg-resized/yiyuan.jpg</file>
+        <file>iloveimg-resized (1) (2)/xueyi.jpg</file>
+        <file>iloveimg-resized (1) (2)/songlin.jpg</file>
+    </qresource>
+    <qresource prefix="/pin">
+        <file>1.png</file>
+        <file>2.png</file>
+        <file>3.png</file>
+        <file>4.png</file>
+        <file>5.png</file>
+        <file>6.png</file>
+        <file>7.png</file>
+        <file>8.png</file>
+    </qresource>
+    <qresource prefix="/a">
+        <file>aTeachingBuilding/erjiao1.jpg</file>
+        <file>aTeachingBuilding/lijiao2.jpg</file>
+        <file>aTeachingBuilding/like2.jpg</file>
+        <file>aTeachingBuilding/sanjiao.jpg</file>
+        <file>aTeachingBuilding/sijiao.jpg</file>
+        <file>aTeachingBuilding/wenshilou.jpg</file>
+        <file>aTeachingBuilding/yijiao3.jpg</file>
+    </qresource>
+    <qresource prefix="/b">
+        <file>bCanteen/shaooyuanzhongcanting.jpg</file>
+        <file>bCanteen/shaoyuan2.jpg</file>
+        <file>bCanteen/shaoyuanxicanting.jpg</file>
+        <file>bCanteen/tongyuan.jpg</file>
+        <file>bCanteen/zhongguanyuanshitang2.jpg</file>
+    </qresource>
+    <qresource prefix="/c">
+        <file>cCoffee/3M2.jpg</file>
+        <file>cCoffee/baijiangkafei2.jpg</file>
+        <file>cCoffee/jiayuanboxingdi1.jpg</file>
+        <file>cCoffee/lvzhiheloukafei.jpg</file>
+        <file>cCoffee/nongyuankafei.jpg</file>
+    </qresource>
+    <qresource prefix="/d">
+        <file>dGate/dongcemen.jpg</file>
+        <file>dGate/dongmen.jpg</file>
+        <file>dGate/dongnanmen.jpg</file>
+        <file>dGate/nanmen2.jpg</file>
+        <file>dGate/xicemen.jpg</file>
+    </qresource>
+    <qresource prefix="/e">
+        <file>eGym/erji3.jpg</file>
+        <file>eGym/wusicaochang.jpg</file>
+        <file>eGym/yiti.jpg</file>
+    </qresource>
+    <qresource prefix="/f">
+        <file>fShop/29lou1.jpg</file>
+        <file>fShop/45jia1.jpg</file>
+        <file>fShop/erjiaomaishu.jpg</file>
+        <file>fShop/lijiaomaishu.jpg</file>
+        <file>fShop/sanjiaomaishu.jpg</file>
+        <file>fShop/wusiwumei.jpg</file>
+    </qresource>
+</RCC>

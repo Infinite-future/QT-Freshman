@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/pin">
+        <file>C:/Users/lenovo/Desktop/qtPhoto/1.png</file>
+        <file>C:/Users/lenovo/Desktop/qtPhoto/2.png</file>
+        <file>C:/Users/lenovo/Desktop/qtPhoto/3.png</file>
+        <file>C:/Users/lenovo/Desktop/qtPhoto/4.png</file>
+    </qresource>
+</RCC>

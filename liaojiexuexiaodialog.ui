@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>liaojiexuexiaoDialog</class>
+ <widget class="QDialog" name="liaojiexuexiaoDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#liaojiexuexiaoDialog{
+image-position:center left;
+image: url(:/scenery/xuejing1.png);
+}
+
+</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>401</x>
+     <y>2</y>
+     <width>401</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="shijianbiao">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:30px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:50px;
+    width:200px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>时间表</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ljxxpb2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:30px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:50px;
+    width:200px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>食堂</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ljxxpb4">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:30px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:50px;
+    width:200px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>生活服务</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ljxxpb3">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:30px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:50px;
+    width:200px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>校内风景</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ljxxpb5">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:30px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:50px;
+    width:200px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
