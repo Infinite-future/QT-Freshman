@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>xiaoneifengjingDialog</class>
+ <widget class="QDialog" name="xiaoneifengjingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="xnfwpb1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:=20px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:20px;
+    width:20px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="xnfwpb2">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>0</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:=20px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:20px;
+    width:20px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    border-image: url(:/baijiang/baijiang.png);
+}
+QPushButton:hover
+{
+    background-color:rgb(0,0,0);
+}
+
+QPushButton:pressed
+{
+   border-image: url(:/baijiang/baijiang.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb5">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>40</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+  border-image: url(:/scenery/weiminghu2.jpg);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+   border-image: url(:/scenery/weiminghu2.jpg);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb4">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>40</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/scenery/qiudeba.jpg);
+QPushButton
+{
+   border-image: url(:/baijiang/baijiang.png);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+   border-image: url(:/baijiang/baijiang.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+   border-image: url(:/scenery/weiminghu1.png);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+   border-image: url(:/scenery/weiminghu1.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>40</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+  border-image: url(:/door/door3.jpg);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+   border-image: url(:/door/door3.jpg);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+  border-image: url(:/scenery/xiaoshiguan.jpg);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+  border-image: url(:/scenery/xiaoshiguan.jpg);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb7">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+   border-image: url(:/door/door4.jpg);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+ border-image: url(:/door/door4.jpg);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb8">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>160</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+  border-image: url(:/door/door5.jpg);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+  border-image: url(:/door/door5.jpg);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb9">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>160</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+  border-image: url(:/scenery/iloveimg-resized (1)/tushuguan.png)；
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+  border-image: url(:/scenery/iloveimg-resized (1)/tushuguan.png)；
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb10">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>160</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+  border-image: url(:/scenery/iloveimg-resized (1)/xintaiyang.png);
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+ border-image: url(:/scenery/iloveimg-resized (1)/xintaiyang.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

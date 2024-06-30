@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FreshmanDialog</class>
+ <widget class="QDialog" name="FreshmanDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FreshmanDialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#FreshmanDialog{background-image: url(:/door/door4.jpg);}</string>
+  </property>
+  <widget class="QPushButton" name="pb3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:20px;
+    color:black;
+    background-color:rgb(222 , 28 , 49);
+    border-radius:15px;
+    height:20px;
+    width:20px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(222 , 28 , 49);
+    
+    
+}</string>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>520</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pb1">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:30px;
+    color:white;
+    background-color:rgb(222 , 28 , 49);
+    border-radius:15px;
+    height:50px;
+    width:20px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(222 , 28 , 49);
+    padding-left:3px;
+    padding-top:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>地图</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pb2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:30px;
+    color:white;
+    background-color:rgb(222 , 28 , 49);
+    border-radius:15px;
+    height:50px;
+    width:20px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(238 , 39 ,70);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(222 , 28 , 49);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>入学</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
