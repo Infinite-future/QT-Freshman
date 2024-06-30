@@ -1,0 +1,4 @@
+https://github.com/Infinite-future/QT-Freshman/blob/main/main.cpp
+https://github.com/Infinite-future/QT-Freshman/blob/main/mapdialog.cpp
+https://github.com/Infinite-future/QT-Freshman/blob/main/liaojiexuexiaodialog.cpp
+https://github.com/Infinite-future/QT-Freshman/blob/main/newdialog.cpp
